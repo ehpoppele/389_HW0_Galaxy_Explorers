@@ -84,7 +84,7 @@ int main(){
     }
 
     //write to file
-    std::ofstream outfile ("cpp_t_times.txt"); //Change this each time too
+    std::ofstream outfile ("cpp_times.txt"); //Change this each time too
     if(outfile.is_open()){
         //iterate through the time array, grabbing out numbers by size
         for(int size_p = 8; size_p <25; size_p++){
