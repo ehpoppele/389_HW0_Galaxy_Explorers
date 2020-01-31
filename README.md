@@ -1,3 +1,7 @@
+# Homework_0
+### Eli Poppele
+I have two main files for this project. `update_script.py` is my edited version of `update_locations.py` that automatically runs the function for several trials for all the sizes and iterations that I chose. `update_script.cc` does the same in c++, while `update_script_20.cc` is set for size 2^20 for Part 4. None of my files take arguments, they all run the predetermined sizes and iterations. The update scripts write to the txt files that are included. I also have .png images included for my graphs.
+
 ## Iterations and Sizes
 For the number of iterations, I started with 1 at the highest object count, since even 2 started to take a few minutes. After that, I tried increasing iterations by a power of two as object count decreased by a power of 2, and although times for each size still varied, with the shortest being several seconds and the longest over a minute, most sizes took about 20 seconds or so. I thought this provided a good amount of data for each size count, and the whole set could still be completed in several minutes.
 ## Data and Speed
