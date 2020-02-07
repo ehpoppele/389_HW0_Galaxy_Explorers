@@ -21,7 +21,7 @@ std::vector<data_t> generate_random_list(int size, int bound, int seed)
 }
 
 //Update position by velocity, one time-step
-void update_coords(std::vector<data_t> xs, std::vector<data_t> ys, std::vector<data_t> zs, std::vector<data_t> vx, std::vector<data_t> vy, std::vector<data_t> vz)
+void update_coords(std::vector<data_t>& xs, std::vector<data_t>& ys, std::vector<data_t>& zs, const std::vector<data_t>& vx, const std::vector<data_t>& vy,  const std::vector<data_t>& vz)
 {
     for(int i = 0; i < xs.size(); i++){
         xs[i] = xs[i] + vx[i];
